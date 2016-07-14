@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.infinite.MainActivity"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:id="@+id/mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mark" />
+
+    <TextView
+        android:id="@+id/name"
+        android:text="debut on June 9 , 2010"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textAlignment="center"
+        android:background="#2962FF"
+        />
+
+    <TextView
+        android:id="@+id/group"
+        android:text="South Korean boy band"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:textColor="#2962FF"
+        android:textSize="30sp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textAlignment="center"
+        android:background="#BBDEFB"
+        />
+
+
+    <ImageView
+        android:id="@+id/infinite"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@id/group"
+        android:scaleType="centerCrop"
+        android:src="@drawable/infinite"
+       />
+
+
+
+</RelativeLayout>
